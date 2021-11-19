@@ -6,15 +6,15 @@ This is a customizable application built on three.js that allows users to design
 
 1) Create 2D floorplan:
 
-![floorplan](https://s3.amazonaws.com/furnishup/floorplan.png)
+![floorplan](arvr_3.png)
 
 2) Add items:
 
-![add_items](https://s3.amazonaws.com/furnishup/add_items.png)
+![add_items](arvr_1.png)
 
 3) Design in 3D:
 
-![3d_design](https://s3.amazonaws.com/furnishup/design.png)
+![3d_design](arvr_2.png)
 
 ## Developing and Running Locally
 
@@ -36,28 +36,6 @@ The easiest way to run locally is to run a local server from the `example` direc
     python -m http.server
 
 Then, visit `http://localhost:8000` in your browser.
-
-## Contribute!
-
-This project requires a lot more work. In general, it was rushed through various prototype stages, and never refactored as much as it probably should be. We need your help!
-
-Please contact us if you are interested in contributing.
-
-### Todos
-
-- More complete documentation (based on the TypeDoc comments)
-- Test suite (e.g. jasmine)
-- Make it easier to build a complete application using blueprint3d (cleaner API, more inclusive base, easier integration with a backend)
-- Better serialization format for saving/loading "designs"
-- Remove the dependency on jquery from the core source!
-- Better use of npm conventions and packaging
-- Various bug fixes
-- refactor three/* - use of classes, lambdas
-- update to current threejs
-- introduce a more formal persistency format
-- put all relevant settings into Core.Configuration to make them read-/writeable, User settings?
-- complete type docs for all entities
-- there're a few TODO_Ekki's left, kill them all
 
 ## Directory Structure
 
