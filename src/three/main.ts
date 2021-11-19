@@ -6,7 +6,7 @@
 /// <reference path="skybox.ts" />
 /// <reference path="controls.ts" />
 /// <reference path="hud.ts" />
-import { VRButton } from "https://cdn.jsdelivr.net/npm/three@0.119.1/examples/jsm/webxr/VRButton.min.js";
+//import { VRButton } from "https://cdn.jsdelivr.net/npm/three@0.119.1/examples/jsm/webxr/VRButton.min.js";
 module BP3D.Three {
   export var Main = function (model, element, canvasElement, opts) {
     var scope = this;
@@ -76,7 +76,7 @@ module BP3D.Three {
         renderer.shadowMapEnabled = true;
       renderer.shadowMapSoft = true;
       renderer.shadowMapType = THREE.PCFSoftShadowMap;
-      renderer.xr.enabled = true;
+      //renderer.xr.enabled = true;
       var skybox = new Three.Skybox(scene);
 
       scope.controls = new Three.Controls(camera, domElement);
@@ -87,7 +87,7 @@ module BP3D.Three {
         scope, model, camera, scope.element, scope.controls, hud);
 
       domElement.appendChild(renderer.domElement);
-      domElement.appendChild( VRButton.createButton( renderer ) );
+      //domElement.appendChild( VRButton.createButton( renderer ) );
       // handle window resizing
       scope.updateWindowSize();
       if (options.resize) {
