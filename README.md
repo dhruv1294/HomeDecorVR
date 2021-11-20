@@ -6,15 +6,15 @@ This is a customizable application built on three.js that allows users to design
 
 1) Create 2D floorplan:
 
-![floorplan](img/arvr_3.png)
+![floorplan](img/arvr_1.png)
 
 2) Add items:
 
-![add_items](img/arvr_1.png)
+![add_items](img/arvr_2.png)
 
 3) Design in 3D:
 
-![3d_design](img/arvr_2.png)
+![3d_design](img/arvr_3.png)
 
 ## Developing and Running Locally
 
