@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a customizable application built on three.js that allows users to design an interior space such as a home or apartment. Below are screenshots from our Example App (link above). 
+This is a customizable application built on three.js that allows users to design an interior space such as a home or apartment. Below are screenshots from our Example App. 
 
 1) Create 2D floorplan:
 
