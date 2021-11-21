@@ -1,4 +1,4 @@
-## See it
+# Home Decor VR
 
 ## What is this?
 
