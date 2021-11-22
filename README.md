@@ -12,7 +12,7 @@ This is a customizable application built on three.js that allows users to design
 
 ![add_items](img/arvr_2.png)
 
-3) Design in 3D:
+3) Design in VR:
 
 ![3d_design](img/arvr_3.png)
 
@@ -66,7 +66,7 @@ The `src` directory contains the core of the project. Here is a description of t
 
 `model` - Data model representing both the 2D floorplan and all of the items in it
 
-`three` - 3D view/controller for viewing and modifying item placement
+`three` - VR view/controller for viewing and modifying item placement
 
 
 ### `example/` Directory
